@@ -1,0 +1,1532 @@
+#Необходимо использовать https://editor.swagger.io/ для просмотра документации или swagger serve ./swagger.json
+swagger: '2.0'
+info:
+  version: '1.0.0'
+  title: Rybalnya application
+schemes: [ http ]
+host: 37.230.114.186:8000
+basePath: /
+consumes: [ application/json ]
+produces: [ application/json ]
+paths:
+  /add_user_info:
+    post:
+      tags: [ user_info ]
+      summary: Add user info in database
+      parameters:
+        - in: body
+          name: user
+          required: true
+          schema:
+            $ref: '#/definitions/add_user_info'
+      responses:
+        201:
+          description: User info was added successful
+          schema:
+            $ref: '#/definitions/user_add_info_response_ok'
+        400:
+          description: Bad Request
+          schema:
+            $ref: '#/definitions/user_add_info_response_err'
+  /update_user_info:
+    put:
+      tags: [ user_info ]
+      summary: Update user info in database
+      parameters:
+        - in: body
+          name: user
+          required: true
+          schema:
+            $ref: '#/definitions/add_user_info'
+      responses:
+        200:
+          description: User info was updated successful
+          schema:
+            $ref: '#/definitions/user_update_info_response_ok'
+        400:
+          description: User not found
+          schema:
+            $ref: '#/definitions/user_update_info_response_err'
+        401:
+          description: Token has been expired or incorrect
+          schema:
+            $ref: '#/definitions/user_update_info_response_err'
+  /login:
+    post:
+      tags: [ user_info ]
+      summary: Login user
+      parameters:
+        - in: body
+          name: login_info
+          required: true
+          schema:
+            $ref: '#/definitions/login_user'
+      responses:
+        200:
+          description: Login was successful
+          schema:
+            $ref: '#/definitions/user_login_response_ok'
+        400:
+          description: Incorrect login info
+          schema:
+            $ref: '#/definitions/user_login_response_err'
+  /get_user_info:
+    get:
+      tags: [ user_info ]
+      summary: Get user info from database
+      parameters:
+        - in: query
+          name: email
+          description: User email
+          required: true
+          type: string
+        - in: query
+          name: nickname
+          description: User nickname
+          required: true
+          type: string
+        - in: query
+          name: user_id
+          description: User id in database
+          required: true
+          type: string
+      responses:
+        200:
+          description: User info was given successful
+          schema:
+            $ref: '#/definitions/user_get_info_response_ok'
+        400:
+          description: User not found
+          schema:
+            $ref: '#/definitions/user_get_info_response_err'
+        401:
+          description: Token has been expired or incorrect
+          schema:
+            $ref: '#/definitions/user_get_info_response_err'
+  /delete_user_info:
+    delete:
+      tags: [ user_info ]
+      summary: Delete user info from database
+      parameters:
+        - in: query
+          name: email
+          description: User email
+          required: true
+          type: string
+      responses:
+        200:
+          description: User info was deleted successful
+          schema:
+            $ref: '#/definitions/user_delete_info_response_ok'
+        400:
+          description: User not found
+          schema:
+            $ref: '#/definitions/user_delete_info_response_err'
+        401:
+          description: Token has been expired or incorrect
+          schema:
+            $ref: '#/definitions/user_delete_info_response_err'
+  /add_map_marker:
+    post:
+      tags: [ map_marker_info ]
+      summary: Add map marker info in database
+      parameters:
+        - in: body
+          name: map_marker_info
+          required: true
+          schema:
+            $ref: '#/definitions/add_map_marker_info'
+      responses:
+        201:
+          description: Map marker info was added successful
+          schema:
+            $ref: '#/definitions/add_map_marker_info_response_ok'
+        401:
+          description: Token has been expired or incorrect
+          schema:
+            $ref: '#/definitions/add_map_marker_info_response_err'
+  /get_markers_info:
+    get:
+      tags: [ map_marker_info ]
+      summary: Get map markers info from database
+      responses:
+        200:
+          description: Map markers info was given successful
+          schema:
+            $ref: '#/definitions/get_map_markers_info_response_ok'
+        400:
+          description: User has no map markers
+          schema:
+            $ref: '#/definitions/get_map_markers_info_response_err'
+        401:
+          description: Token has been expired or incorrect
+          schema:
+            $ref: '#/definitions/get_map_markers_info_response_err'
+  /update_marker_info:
+    put:
+      tags: [ map_marker_info ]
+      summary: Update map marker info
+      parameters:
+        - in: query
+          name: id
+          description: Id in database
+          required: true
+          type: integer
+        - in: body
+          name: marker_info
+          required: true
+          schema:
+            $ref: '#/definitions/map_info'
+      responses:
+        200:
+          description: Map marker info was updated successful
+          schema:
+            $ref: '#/definitions/update_map_marker_info_response_ok'
+        400:
+          description: Map marker has no exist
+          schema:
+            $ref: '#/definitions/update_map_marker_info_response_err'
+        401:
+          description: Token has been expired or incorrect
+          schema:
+            $ref: '#/definitions/update_map_marker_info_response_err'
+  /delete_marker_info:
+    delete:
+      tags: [ map_marker_info ]
+      summary: Delete map marker info
+      parameters:
+        - in: query
+          name: id
+          description: Id in database
+          required: true
+          type: integer
+      responses:
+        200:
+          description: User info was deleted successful
+          schema:
+            $ref: '#/definitions/delete_map_marker_info_response_ok'
+        400:
+          description: Map marker has no exist
+          schema:
+            $ref: '#/definitions/update_map_marker_info_response_err'
+        401:
+          description: Token has been expired or incorrect
+          schema:
+            $ref: '#/definitions/delete_map_marker_info_response_err'
+  /get_new_access_token:
+    get:
+      tags: [ access_policy ]
+      summary: Get new access token
+      responses:
+        200:
+          description: Token jas been updated successful
+          schema:
+            $ref: '#/definitions/get_new_access_token_response_ok'
+        401:
+          description: Token has been expired or incorrect
+          schema:
+            $ref: '#/definitions/get_new_access_token_response_err'
+  /add_post:
+    post:
+      tags: [ posts_info ]
+      summary: Add post in database
+      parameters:
+        - in: body
+          name: post_info
+          required: true
+          schema:
+            $ref: '#/definitions/add_post'
+      responses:
+        201:
+          description: Post was added successful
+          schema:
+            $ref: '#/definitions/add_post_response_ok'
+        401:
+          description: Token has been expired or incorrect
+          schema:
+            $ref: '#/definitions/add_post_response_err'
+  /get_all_posts:
+    get:
+      tags: [ posts_info ]
+      summary: Get all posts
+      responses:
+        200:
+          description: Posts were given successful
+          schema:
+            $ref: '#/definitions/get_posts_response_ok'
+        400:
+          description: There are no posts
+          schema:
+            $ref: '#/definitions/get_posts_response_err'
+        401:
+          description: Token has been expired or incorrect
+          schema:
+            $ref: '#/definitions/get_posts_response_err'
+  /get_all_posts_with_token:
+    get:
+      tags: [ posts_info ]
+      summary: Get all posts by user id
+      responses:
+        200:
+          description: Posts were given successful
+          schema:
+            $ref: '#/definitions/get_posts_response_ok'
+        400:
+          description: There are no posts
+          schema:
+            $ref: '#/definitions/get_posts_response_err'
+        401:
+          description: Token has been expired or incorrect
+          schema:
+            $ref: '#/definitions/get_posts_response_err'
+  /get_posts:
+    get:
+      tags: [ posts_info ]
+      summary: Get all posts by user id
+      parameters:
+        - in: query
+          name: user_id
+          description: User id in database
+          required: true
+          type: integer
+      responses:
+        200:
+          description: Posts were given successful
+          schema:
+            $ref: '#/definitions/get_posts_response_ok'
+        400:
+          description: There are no posts
+          schema:
+            $ref: '#/definitions/get_posts_response_err'
+        401:
+          description: Token has been expired or incorrect
+          schema:
+            $ref: '#/definitions/get_posts_response_err'
+  /get_posts_with_conditions:
+    get:
+      tags: [ posts_info ]
+      summary: Get all posts with conditions
+      parameters:
+        - in: query
+          name: start_time
+          description: The time at which you want to select posts
+          required: true
+          type: string
+        - in: query
+          name: limit
+          description: Number of posts in the sample
+          required: true
+          type: integer
+      responses:
+        200:
+          description: Posts were given successful
+          schema:
+            $ref: '#/definitions/get_posts_response_ok'
+        400:
+          description: There are no posts
+          schema:
+            $ref: '#/definitions/get_posts_response_err'
+        401:
+          description: Token has been expired or incorrect
+          schema:
+            $ref: '#/definitions/get_posts_response_err'
+  /delete_post:
+    delete:
+      tags: [ posts_info ]
+      summary: Delete post
+      parameters:
+        - in: query
+          name: id
+          description: Id in database
+          required: true
+          type: integer
+      responses:
+        200:
+          description: Post was deleted successful
+          schema:
+            $ref: '#/definitions/delete_post_response_ok'
+        400:
+          description: Post has no exist
+          schema:
+            $ref: '#/definitions/delete_post_response_err'
+        401:
+          description: Token has been expired or incorrect
+          schema:
+            $ref: '#/definitions/delete_post_response_err'
+  /update_post:
+    put:
+      tags: [ posts_info ]
+      summary: Update post
+      parameters:
+        - in: query
+          name: id
+          description: Id in database
+          required: true
+          type: integer
+        - in: body
+          name: post_info
+          required: true
+          schema:
+            $ref: '#/definitions/post_info'
+      responses:
+        200:
+          description: Post was updated successful
+          schema:
+            $ref: '#/definitions/update_post_response_ok'
+        400:
+          description: Post has no exist
+          schema:
+            $ref: '#/definitions/update_post_response_err'
+        401:
+          description: Token has been expired or incorrect
+          schema:
+            $ref: '#/definitions/update_post_response_err'
+  /add_like:
+    post:
+      tags: [ like_info ]
+      summary: Add like
+      parameters:
+        - in: query
+          name: post_id
+          description: Post id in database
+          required: true
+          type: integer
+      responses:
+        201:
+          description: Like was added successful
+          schema:
+            $ref: '#/definitions/add_like_response_ok'
+        400:
+          description: Like already exists
+          schema:
+            $ref: '#/definitions/add_post_response_err'
+        401:
+          description: Token has been expired or incorrect
+          schema:
+            $ref: '#/definitions/add_post_response_err'
+  /delete_like:
+    delete:
+      tags: [ like_info ]
+      summary: Delete like info
+      parameters:
+        - in: query
+          name: post_id
+          description: Post id in database
+          required: true
+          type: integer
+      responses:
+        200:
+          description: Like was deleted successful
+          schema:
+            $ref: '#/definitions/delete_like_response_ok'
+        400:
+          description: Like not found
+          schema:
+            $ref: '#/definitions/delete_post_response_err'
+        401:
+          description: Token has been expired or incorrect
+          schema:
+            $ref: '#/definitions/delete_post_response_err'
+  /get_count_of_likes:
+    get:
+      tags: [ like_info ]
+      summary: Get count of likes
+      parameters:
+        - in: query
+          name: post_id
+          description: Post id in database
+          required: true
+          type: integer
+      responses:
+        200:
+          description: Get count of likes
+          schema:
+            $ref: '#/definitions/get_count_of_likes_response_ok'
+        400:
+          description: Post has no exist
+          schema:
+            $ref: '#/definitions/get_new_access_token_response_err'
+        401:
+          description: Token has been expired or incorrect
+          schema:
+            $ref: '#/definitions/get_count_of_likes_response_err'
+  /is_liked:
+    get:
+      tags: [ like_info ]
+      summary: Get information about post's like
+      parameters:
+        - in: query
+          name: post_id
+          description: Post id id in database
+          required: true
+          type: integer
+      responses:
+        200:
+          description: Information about post's like was given successful
+          schema:
+            $ref: '#/definitions/is_liked_response_ok'
+        400:
+          description: Post has no found
+          schema:
+            $ref: '#/definitions/is_liked_response_err'
+        401:
+          description: Token has been expired or incorrect
+          schema:
+            $ref: '#/definitions/is_liked_response_err'
+  /get_list_of_post_likes:
+    get:
+      tags: [ like_info ]
+      summary: Get information about post's likes by post id
+      parameters:
+        - in: query
+          name: post_id
+          description: Post id in database
+          required: true
+          type: integer
+      responses:
+        200:
+          description: Information about post's likes by post id was given successful
+          schema:
+            $ref: '#/definitions/get_list_of_post_likes_response_ok'
+        400:
+          description: Post has no found
+          schema:
+            $ref: '#/definitions/get_list_of_post_likes_response_err'
+        401:
+          description: Token has been expired or incorrect
+          schema:
+            $ref: '#/definitions/get_list_of_post_likes_response_err'
+  /add_comment:
+    post:
+      tags: [ comment_info ]
+      summary: Add comment in database
+      parameters:
+        - in: body
+          name: comment
+          required: true
+          schema:
+              $ref: '#/definitions/add_comment'
+      responses:
+        201:
+          description: Comment was added successful
+          schema:
+            $ref: '#/definitions/add_comment_response_ok'
+        400:
+          description: Post has no exist
+          schema:
+            $ref: '#/definitions/add_comment_response_err'
+        401:
+          description: Token has been expired or incorrect
+          schema:
+            $ref: '#/definitions/add_comment_response_err'
+  /get_comments:
+    get:
+      tags: [ comment_info ]
+      summary: Get comments by post id
+      parameters:
+        - in: query
+          name: post_id
+          description: Post id in database
+          required: true
+          type: integer
+      responses:
+        200:
+          description: Comments were given successful
+          schema:
+            $ref: '#/definitions/get_comments_response_ok'
+        400:
+          description: Post has no exist
+          schema:
+            $ref: '#/definitions/get_comments_response_err'
+        401:
+          description: Token has been expired or incorrect
+          schema:
+            $ref: '#/definitions/get_comments_response_err'
+  /update_comment:
+    put:
+      tags: [ comment_info ]
+      summary: Update comment info
+      parameters:
+        - in: query
+          name: id
+          description: Id in database
+          required: true
+          type: integer
+        - in: body
+          name: comment_info
+          required: true
+          schema:
+            $ref: '#/definitions/comment_info'
+      responses:
+        200:
+          description: Commet was updated successful
+          schema:
+            $ref: '#/definitions/update_comment_response_ok'
+        400:
+          description: Comment has no exist
+          schema:
+            $ref: '#/definitions/update_comment_response_err'
+        401:
+          description: Token has been expired or incorrect
+          schema:
+            $ref: '#/definitions/update_comment_response_err'
+  /delete_comment:
+    delete:
+      tags: [ comment_info ]
+      summary: Delete comment info
+      parameters:
+        - in: query
+          name: id
+          description: Id in database
+          required: true
+          type: integer
+      responses:
+        200:
+          description: Comment was deleted successful
+          schema:
+            $ref: '#/definitions/delete_comment_response_ok'
+        400:
+          description: Comment no exist
+          schema:
+            $ref: '#/definitions/delete_comment_response_err'
+        401:
+          description: Token has been expired or incorrect
+          schema:
+            $ref: '#/definitions/delete_comment_response_err'
+  /get_count_of_comments:
+    get:
+      tags: [ comment_info ]
+      summary: Get count of comments
+      parameters:
+        - in: query
+          name: post_id
+          description: Post id in database
+          required: true
+          type: integer
+      responses:
+        200:
+          description: Count of comments was given successful
+          schema:
+            $ref: '#/definitions/get_count_of_comments_response_ok'
+        400:
+          description: Post has no exist
+          schema:
+            $ref: '#/definitions/get_count_of_comments_response_err'
+        401:
+          description: Token has been expired or incorrect
+          schema:
+            $ref: '#/definitions/get_count_of_comments_response_err'
+definitions:
+  user_info:
+    type: object
+    required:
+      - FullName
+      - Nickname
+      - Email
+      - Password
+      - About
+      - Image
+    properties:
+      ID:
+        type: integer
+        format: uint64
+        readOnly: true
+      FullName:
+        type: string
+        example: Denis Maksimov
+      Nickname:
+        type: string
+        example: dmaksimov
+      Email:
+        type: string
+        example: some@mail.ru
+      Password:
+        type: string
+        example: 8d969eef6ecad3c29a3a629280e686cf0c3f5d5a86aff3ca12020c923adc6c92
+      About:
+        type: string
+        example: Bla bla
+      Image:
+        type: array
+        items:
+          type: integer
+          format: Byte arrray
+  comment_info:
+    type: object
+    required:
+      - UserID
+      - PostID
+      - Content
+      - WasUpdated
+      - CreatedAt
+    properties:
+      ID:
+        type: integer
+        format: int64
+        readOnly: true
+      UserID:
+        type: integer
+        format: uint64
+        example: 4
+      PostID:
+        type: integer
+        format: uint64
+        example: 5
+      Content:
+        type: string
+        example: Some comment
+      WasUpdated:
+        type: boolean
+      CreatedAt:
+        type: string
+        format: datetime
+  like_info:
+    type: object
+    required:
+      - UserID
+      - PostID
+    properties:
+      UserID:
+        type: integer
+        format: uint64
+        example: 4
+      PostID:
+        type: integer
+        format: uint64
+        example: 2
+  map_info:
+    type: object
+    required:
+      - Info
+      - Image
+      - Lat
+      - Long
+      - UserID
+      - CreatedAt
+    properties:
+      ID:
+        type: integer
+        format: int64
+        readOnly: true
+      Info:
+        type: string
+        example: Some info
+      Image:
+        type: array
+        items:
+          type: integer
+          format: Byte arrray
+      Lat:
+        type: number
+        format: float64
+        example: 55.649051
+      Long:
+        type: number
+        format: float64
+        example: 37.638695
+      UserID:
+        type: integer
+        format: int64
+        example: 3
+      CreatedAt:
+        type: string
+        format: datetime
+        example: 2020-10-14 00:10:45
+  add_user_info:
+    type: object
+    required:
+      - Email
+      - Password
+    properties:
+      ID:
+        type: integer
+        format: uint64
+        readOnly: true
+      FullName:
+        type: string
+        example: Denis Maksimov
+      Nickname:
+        type: string
+        example: dmaksimov
+      Email:
+        type: string
+        example: some@mail.ru
+      Password:
+        type: string
+        example: 8d969eef6ecad3c29a3a629280e686cf0c3f5d5a86aff3ca12020c923adc6c92
+      About:
+        type: string
+        example: Bla bla
+      Image:
+        type: array
+        items:
+          type: integer
+          format: Byte arrray
+  post_info:
+    type: object
+    required:
+      - Image
+      - Description
+      - UserID
+      - CreatedAt
+    properties:
+      ID:
+        type: integer
+        format: uint64
+        readOnly: true
+      Image:
+        type: array
+        items:
+          type: integer
+          format: Byte arrray
+      Description:
+        type: string
+        example: Some description
+      UserID:
+        type: integer
+        format: uint64
+        example: 2
+      CreatedAt:
+        type: string
+        format: datetime
+        example: 2020-10-14T11:26:41.752933-04:00
+  login_user:
+    type: object
+    required:
+      - Email
+      - Password
+    properties:
+      Email:
+        type: string
+        example: some@mail.ru
+      Password:
+        type: string
+        example: 8d969eef6ecad3c29a3a629280e686cf0c3f5d5a86aff3ca12020c923adc6c92
+  add_map_marker_info:
+    type: object
+    required:
+      - Lat
+      - Long
+    properties:
+      ID:
+        type: integer
+        format: int64
+        readOnly: true
+      Info:
+        type: string
+        example: Some info
+      Image:
+        type: array
+        items:
+          type: integer
+          format: Byte arrray
+      Lat:
+        type: number
+        format: float64
+        example: 55.649051
+      Long:
+        type: number
+        format: float64
+        example: 37.638695
+      UserID:
+        type: integer
+        format: int64
+        example: 3
+      CreatedAt:
+        type: string
+        format: datetime
+        example: 2020-10-14 00:10:45
+  add_post:
+    type: object
+    required:
+      - Description
+    properties:
+      Image:
+        type: array
+        items:
+          type: integer
+          format: Byte arrray
+      Description:
+        type: string
+        example: Some description
+  add_comment:
+    type: object
+    required:
+      - Content
+      - PostID
+    properties:
+      Content:
+        type: string
+        example: Some comment
+      PostID:
+        type: integer
+        format: uint64
+  user_add_info_response_ok:
+    type: object
+    required:
+      - Status
+      - Action
+      - UserID
+      - AccessToken
+    properties:
+      Status:
+        type: boolean
+      Action:
+        type: string
+        example: Пользователь успешно зарегистрирован!
+      UserID:
+        type: integer
+        format: uint64
+        example: 2
+      AccessToken:
+        type: string
+        example: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2MDUyNDk2NDksInVzZXJfZW1haWwiOiJhQGEuYSIsInVzZXJfaWQiOjF9.swUkoACyldgN4jhx48BNv9ARIitaWV7v7qN2QesKGbE
+  user_add_info_response_err:
+    type: object
+    required:
+      - Status
+      - Error
+    properties:
+      Status:
+        type: boolean
+      Error:
+        type: string
+        example: Такой пользователь уже существует!
+  user_update_info_response_ok:
+    type: object
+    required:
+      - Status
+      - Action
+      - IsTokenExpire
+      - UserInfo
+    properties:
+      Status:
+        type: boolean
+      Action:
+        type: string
+        example: Информация о пользователе успешно обновлена!
+      IsTokenExpire:
+        type: boolean
+      UserInfo:
+        $ref: '#/definitions/user_info'
+  user_update_info_response_err:
+    type: object
+    required:
+      - Status
+      - Error
+    properties:
+      Status:
+        type: boolean
+      Error:
+        type: string
+        example: Пользователя не существует!
+  user_login_response_ok:
+    type: object
+    required:
+      - Status
+      - Action
+      - AccessToken
+    properties:
+      Status:
+        type: boolean
+      Action:
+        type: string
+        example: Успешная аутентификация!
+      AccessToken:
+        type: string
+        example: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2MDUyNDk2NDksInVzZXJfZW1haWwiOiJhQGEuYSIsInVzZXJfaWQiOjF9.swUkoACyldgN4jhx48BNv9ARIitaWV7v7qN2QesKGbE
+  user_login_response_err:
+    type: object
+    required:
+      - Status
+      - Error
+    properties:
+      Status:
+        type: boolean
+      Error:
+        type: string
+        example: Неправильно введены данные!
+  user_get_info_response_ok:
+    type: object
+    required:
+      - Status
+      - Action
+      - IsTokenExpire
+    properties:
+      Status:
+        type: boolean
+      Action:
+        type: string
+        example: Данные о пользователе успешно отправлены!
+      IsTokenExpire:
+        type: boolean
+      UserInfo:
+        $ref: '#/definitions/user_info'
+      UsersInfo:
+        type: array
+        items:
+          $ref: '#/definitions/user_info'
+  user_get_info_response_err:
+    type: object
+    required:
+      - Status
+      - Error
+      - UserInfo
+    properties:
+      Status:
+        type: boolean
+      Error:
+        type: string
+        example: Такой почты не существует!
+      UserInfo:
+        type: string
+        example: null
+  user_delete_info_response_ok:
+    type: object
+    required:
+      - Status
+      - Action
+      - IsTokenExpire
+    properties:
+      Status:
+        type: boolean
+      Action:
+        type: string
+        example: Аккаунт пользователя удален!
+      IsTokenExpire:
+        type: boolean
+  user_delete_info_response_err:
+    type: object
+    required:
+      - Status
+      - Error
+    properties:
+      Status:
+        type: boolean
+      Error:
+        type: string
+        example: Пользователь не существует!
+  add_map_marker_info_response_ok:
+    type: object
+    required:
+      - Status
+      - Action
+      - IsTokenExpire
+    properties:
+      Status:
+        type: boolean
+      Action:
+        type: string
+        example: Маркер успешно добавлен!
+      IsTokenExpire:
+        type: boolean
+  add_map_marker_info_response_err:
+    type: object
+    required:
+      - Status
+      - Error
+    properties:
+      Status:
+        type: boolean
+      Error:
+        type: string
+        example: Токен некорректный!
+  get_map_markers_info_response_ok:
+    type: object
+    required:
+      - Status
+      - Action
+      - IsTokenExpire
+      - MapInfo
+    properties:
+      Status:
+        type: boolean
+      Action:
+        type: string
+        example: Данные о маркерах успешно отправлены!
+      IsTokenExpire:
+        type: boolean
+      MapInfo:
+        type: array
+        items:
+          $ref: '#/definitions/map_info'
+  get_map_markers_info_response_err:
+    type: object
+    required:
+      - Status
+      - Error
+    properties:
+      Status:
+        type: boolean
+      Error:
+        type: string
+        example: У пользователя нет маркеров!
+  update_map_marker_info_response_ok:
+    type: object
+    required:
+      - Status
+      - Action
+      - IsTokenExpire
+      - MapInfo
+    properties:
+      Status:
+        type: boolean
+      Action:
+        type: string
+        example: Данные о маркерах успешно отправлены!
+      IsTokenExpire:
+        type: boolean
+      MapInfo:
+          $ref: '#/definitions/map_info'
+  update_map_marker_info_response_err:
+    type: object
+    required:
+      - Status
+      - Error
+    properties:
+      Status:
+        type: boolean
+      Error:
+        type: string
+        example: Маркера не существует!
+  delete_map_marker_info_response_ok:
+    type: object
+    required:
+      - Status
+      - Action
+      - IsTokenExpire
+    properties:
+      Status:
+        type: boolean
+      Action:
+        type: string
+        example: Маркер пользователя удален!
+      IsTokenExpire:
+        type: boolean
+  delete_map_marker_info_response_err:
+    type: object
+    required:
+      - Status
+      - Error
+    properties:
+      Status:
+        type: boolean
+      Error:
+        type: string
+        example: Маркера не существует!
+  get_new_access_token_response_ok:
+    type: object
+    required:
+      - Status
+      - Action
+      - AccessToken
+    properties:
+      Status:
+        type: boolean
+      Action:
+        type: string
+        example: Пользователь успешно зарегистрирован!
+      AccessToken:
+        type: string
+        example: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2MDUyNDk2NDksInVzZXJfZW1haWwiOiJhQGEuYSIsInVzZXJfaWQiOjF9.swUkoACyldgN4jhx48BNv9ARIitaWV7v7qN2QesKGbE
+  get_new_access_token_response_err:
+    type: object
+    required:
+      - Status
+      - Error
+    properties:
+      Status:
+        type: boolean
+      Error:
+        type: string
+        example: Токен некорректный!
+  add_post_response_ok:
+    type: object
+    required:
+      - Status
+      - Action
+      - IsTokenExpire
+    properties:
+      Status:
+        type: boolean
+      Action:
+        type: string
+        example: Пост успешно добавлен!
+      IsTokenExpire:
+        type: boolean
+  add_post_response_err:
+    type: object
+    required:
+      - Status
+      - Error
+    properties:
+      Status:
+        type: boolean
+      Error:
+        type: string
+        example: Токен некорректный!
+  get_posts_response_ok:
+    type: object
+    required:
+      - Status
+      - Action
+      - IsTokenExpire
+      - Posts
+    properties:
+      Status:
+        type: boolean
+      Action:
+        type: string
+        example: Данные о постах успешно отправлены!
+      IsTokenExpire:
+        type: boolean
+      Posts:
+        type: array
+        items:
+          $ref: '#/definitions/post_info'
+  get_posts_response_err:
+    type: object
+    required:
+      - Status
+      - Error
+    properties:
+      Status:
+        type: boolean
+      Error:
+        type: string
+        example: Таких постов не сусществует!
+  delete_post_response_ok:
+    type: object
+    required:
+      - Status
+      - Action
+      - IsTokenExpire
+    properties:
+      Status:
+        type: boolean
+      Action:
+        type: string
+        example: Пост успешно удален!
+      IsTokenExpire:
+        type: boolean
+  delete_post_response_err:
+    type: object
+    required:
+      - Status
+      - Error
+    properties:
+      Status:
+        type: boolean
+      Error:
+        type: string
+        example: Поста не существует!
+  update_post_response_ok:
+    type: object
+    required:
+      - Status
+      - Action
+      - IsTokenExpire
+      - Posts
+    properties:
+      Status:
+        type: boolean
+      Action:
+        type: string
+        example: Информация о посте успешно обновлена!
+      IsTokenExpire:
+        type: boolean
+      Posts:
+        type: array
+        items:
+          $ref: '#/definitions/post_info'
+  update_post_response_err:
+    type: object
+    required:
+      - Status
+      - Error
+    properties:
+      Status:
+        type: boolean
+      Error:
+        type: string
+        example: Поста не существует!
+  add_like_response_ok:
+    type: object
+    required:
+      - Status
+      - Action
+      - IsTokenExpire
+    properties:
+      Status:
+        type: boolean
+      Action:
+        type: string
+        example: Лайк успешно добавлен!
+      IsTokenExpire:
+        type: boolean
+  add_like_response_err:
+    type: object
+    required:
+      - Status
+      - Error
+    properties:
+      Status:
+        type: boolean
+      Error:
+        type: string
+        example: Лайк уже существует!
+  delete_like_response_ok:
+    type: object
+    required:
+      - Status
+      - Action
+      - IsTokenExpire
+    properties:
+      Status:
+        type: boolean
+      Action:
+        type: string
+        example: Лайк пользователя удален!
+      IsTokenExpire:
+        type: boolean
+  delete_like_response_err:
+    type: object
+    required:
+      - Status
+      - Error
+    properties:
+      Status:
+        type: boolean
+      Error:
+        type: string
+        example: Лайка не существует!
+  get_count_of_likes_response_ok:
+    type: object
+    required:
+      - Status
+      - Action
+      - CntLikes
+      - IsTokenExpire
+    properties:
+      Status:
+        type: boolean
+      Action:
+        type: string
+        example: Данные о количестве лайков успешно отправлены!
+      IsTokenExpire:
+        type: boolean
+      CntLikes:
+        type: integer
+        format: uint64
+        example: 34
+  get_count_of_likes_response_err:
+    type: object
+    required:
+      - Status
+      - Error
+    properties:
+      Status:
+        type: boolean
+      Error:
+        type: string
+        example: Поста не существует
+  is_liked_response_ok:
+    type: object
+    required:
+      - Status
+      - Action
+      - IsLiked
+      - IsTokenExpire
+    properties:
+      Status:
+        type: boolean
+      Action:
+        type: string
+        example: Информация о лайке успешно получена!
+      IsTokenExpire:
+        type: boolean
+      IsLiked:
+        type: boolean
+  is_liked_response_err:
+    type: object
+    required:
+      - Status
+      - Error
+    properties:
+      Status:
+        type: boolean
+      Error:
+        type: string
+        example: Поста не существует!
+  get_list_of_post_likes_response_ok:
+    type: object
+    required:
+      - Status
+      - Action
+      - UserIDs
+      - IsTokenExpire
+    properties:
+      Status:
+        type: boolean
+      Action:
+        type: string
+        example: Информация о лайке успешно получена!
+      IsTokenExpire:
+        type: boolean
+      USerIDs:
+        type: array
+        items:
+          type: integer
+          format: uint64
+          example: 2
+  get_list_of_post_likes_response_err:
+    type: object
+    required:
+      - Status
+      - Error
+    properties:
+      Status:
+        type: boolean
+      Error:
+        type: string
+        example: Поста не существует!
+  add_comment_response_ok:
+    type: object
+    required:
+      - Status
+      - Action
+      - IsTokenExpire
+    properties:
+      Status:
+        type: boolean
+      Action:
+        type: string
+        example: Комментарий успешно добавлен!
+      IsTokenExpire:
+        type: boolean
+  add_comment_response_err:
+    type: object
+    required:
+      - Status
+      - Error
+    properties:
+      Status:
+        type: boolean
+      Error:
+        type: string
+        example: Поста не существует!
+  get_comments_response_ok:
+    type: object
+    required:
+      - Status
+      - Action
+      - Comments
+      - IsTokenExpire
+    properties:
+      Status:
+        type: boolean
+      Action:
+        type: string
+        example: Комментарий успешно добавлен!
+      IsTokenExpire:
+        type: boolean
+      Comments:
+        type: array
+        items:
+          $ref: '#/definitions/comment_info'
+  get_comments_response_err:
+    type: object
+    required:
+      - Status
+      - Error
+    properties:
+      Status:
+        type: boolean
+      Error:
+        type: string
+        example: Поста не существует!
+  update_comment_response_ok:
+    type: object
+    required:
+      - Status
+      - Action
+      - Comments
+      - IsTokenExpire
+    properties:
+      Status:
+        type: boolean
+      Action:
+        type: string
+        example: Комментарий успешно обновлен!
+      IsTokenExpire:
+        type: boolean
+      Comments:
+        type: array
+        items:
+          $ref: '#/definitions/comment_info'
+  update_comment_response_err:
+    type: object
+    required:
+      - Status
+      - Error
+    properties:
+      Status:
+        type: boolean
+      Error:
+        type: string
+        example: Комментария не существует!
+  delete_comment_response_ok:
+    type: object
+    required:
+      - Status
+      - Action
+      - IsTokenExpire
+    properties:
+      Status:
+        type: boolean
+      Action:
+        type: string
+        example: Комментарий успешно удален!
+      IsTokenExpire:
+        type: boolean
+  delete_comment_response_err:
+    type: object
+    required:
+      - Status
+      - Error
+    properties:
+      Status:
+        type: boolean
+      Error:
+        type: string
+        example: Комментария не существует!
+  get_count_of_comments_response_ok:
+    type: object
+    required:
+      - Status
+      - Action
+      - CntComments
+      - IsTokenExpire
+    properties:
+      Status:
+        type: boolean
+      Action:
+        type: string
+        example: Комментарий успешно удален!
+      IsTokenExpire:
+        type: boolean
+      CntComments:
+        type: integer
+        format: uint64
+        example: 4
+  get_count_of_comments_response_err:
+    type: object
+    required:
+      - Status
+      - Error
+    properties:
+      Status:
+        type: boolean
+      Error:
+        type: string
+        example: Комментария не существует!

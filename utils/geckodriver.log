@@ -1,0 +1,943 @@
+1601156539359	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "" "-foreground" "-no-remote" "-profile" "C:\\Users\\Alik\\AppData\\Local\\Temp\\rust_mozprofile6FzGEY"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1601156540603	Marionette	INFO	Listening on port 61061
+1601156540862	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://www.sevin.ru/vertebrates/ftiens4.js, line 378: unreachable code after return statement
+1601156566629	Marionette	INFO	Stopped listening on port 61061
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1601156599961	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "" "-foreground" "-no-remote" "-profile" "C:\\Users\\Alik\\AppData\\Local\\Temp\\rust_mozprofileHtbi00"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1601156601257	Marionette	INFO	Listening on port 61110
+1601156601466	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://www.sevin.ru/vertebrates/ftiens4.js, line 378: unreachable code after return statement
+JavaScript warning: http://www.sevin.ru/vertebrates/ftiens4.js, line 378: unreachable code after return statement
+JavaScript warning: http://www.sevin.ru/vertebrates/ftiens4.js, line 378: unreachable code after return statement
+JavaScript warning: http://www.sevin.ru/vertebrates/ftiens4.js, line 378: unreachable code after return statement
+1601156627075	Marionette	INFO	Stopped listening on port 61110
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1601156650924	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "" "-foreground" "-no-remote" "-profile" "C:\\Users\\Alik\\AppData\\Local\\Temp\\rust_mozprofilemdNasl"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1601156652154	Marionette	INFO	Listening on port 61171
+1601156652428	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://www.sevin.ru/vertebrates/ftiens4.js, line 378: unreachable code after return statement
+1601156683887	Marionette	INFO	Stopped listening on port 61171
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1601156732878	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "" "-foreground" "-no-remote" "-profile" "C:\\Users\\Alik\\AppData\\Local\\Temp\\rust_mozprofile7X0x8r"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1601156734117	Marionette	INFO	Listening on port 61226
+1601156734386	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://www.sevin.ru/vertebrates/ftiens4.js, line 378: unreachable code after return statement
+1601156745721	Marionette	INFO	Stopped listening on port 61226
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1601156813849	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "" "-foreground" "-no-remote" "-profile" "C:\\Users\\Alik\\AppData\\Local\\Temp\\rust_mozprofileltbvub"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1601156815075	Marionette	INFO	Listening on port 61276
+1601156815353	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://www.sevin.ru/vertebrates/ftiens4.js, line 378: unreachable code after return statement
+1601156821331	Marionette	INFO	Stopped listening on port 61276
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1601156826551	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "" "-foreground" "-no-remote" "-profile" "C:\\Users\\Alik\\AppData\\Local\\Temp\\rust_mozprofile3udM1M"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1601156827778	Marionette	INFO	Listening on port 61322
+1601156828054	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://www.sevin.ru/vertebrates/ftiens4.js, line 378: unreachable code after return statement
+1601156831292	Marionette	INFO	Stopped listening on port 61322
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1601156871811	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "" "-foreground" "-no-remote" "-profile" "C:\\Users\\Alik\\AppData\\Local\\Temp\\rust_mozprofileZyhxye"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1601156873060	Marionette	INFO	Listening on port 61376
+1601156873318	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://www.sevin.ru/vertebrates/ftiens4.js, line 378: unreachable code after return statement
+1601156892659	Marionette	INFO	Stopped listening on port 61376
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1601156921592	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "" "-foreground" "-no-remote" "-profile" "C:\\Users\\Alik\\AppData\\Local\\Temp\\rust_mozprofileMNNKBJ"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1601156922795	Marionette	INFO	Listening on port 61437
+1601156923101	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://www.sevin.ru/vertebrates/ftiens4.js, line 378: unreachable code after return statement
+1601156932533	Marionette	INFO	Stopped listening on port 61437
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1601156943124	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "" "-foreground" "-no-remote" "-profile" "C:\\Users\\Alik\\AppData\\Local\\Temp\\rust_mozprofileAm77p6"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1601156944339	Marionette	INFO	Listening on port 61486
+1601156944628	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://www.sevin.ru/vertebrates/ftiens4.js, line 378: unreachable code after return statement
+1601156959047	Marionette	INFO	Stopped listening on port 61486
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1601157032400	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "" "-foreground" "-no-remote" "-profile" "C:\\Users\\Alik\\AppData\\Local\\Temp\\rust_mozprofileGoNwiu"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1601157033690	Marionette	INFO	Listening on port 61537
+1601157033905	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://www.sevin.ru/vertebrates/ftiens4.js, line 378: unreachable code after return statement
+1601157617254	Marionette	INFO	Stopped listening on port 61537
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+re/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1601157117614	Marionette	INFO	Listening on port 61592
+1601157117895	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://www.sevin.ru/vertebrates/ftiens4.js, line 378: unreachable code after return statement
+1601157618460	Marionette	INFO	Stopped listening on port 61592
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+re/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1601157309510	Marionette	INFO	Listening on port 61699
+1601157309767	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://www.sevin.ru/vertebrates/ftiens4.js, line 378: unreachable code after return statement
+1601157321742	Marionette	INFO	Stopped listening on port 61699
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1601157337726	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "" "-foreground" "-no-remote" "-profile" "C:\\Users\\Alik\\AppData\\Local\\Temp\\rust_mozprofileig0mjO"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1601157338959	Marionette	INFO	Listening on port 61748
+1601157339231	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://www.sevin.ru/vertebrates/ftiens4.js, line 378: unreachable code after return statement
+1601157344846	Marionette	INFO	Stopped listening on port 61748
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1601157424094	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "" "-foreground" "-no-remote" "-profile" "C:\\Users\\Alik\\AppData\\Local\\Temp\\rust_mozprofileggv1Q2"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1601157425364	Marionette	INFO	Listening on port 61808
+1601157425600	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://www.sevin.ru/vertebrates/ftiens4.js, line 378: unreachable code after return statement
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+I1601157619623	Marionette	INFO	Stopped listening on port 61921
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+ette	INFO	Stopped listening on port 61808
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1601158312147	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "" "-foreground" "-no-remote" "-profile" "C:\\Users\\Alik\\AppData\\Local\\Temp\\rust_mozprofileFrWSrY"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1601158313439	Marionette	INFO	Listening on port 62237
+1601158313651	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://www.sevin.ru/vertebrates/ftiens4.js, line 378: unreachable code after return statement
+1601158327950	Marionette	INFO	Stopped listening on port 62237
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1601158396426	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "" "-foreground" "-no-remote" "-profile" "C:\\Users\\Alik\\AppData\\Local\\Temp\\rust_mozprofileWvKmYc"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1601158397699	Marionette	INFO	Listening on port 62290
+1601158397929	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://www.sevin.ru/vertebrates/ftiens4.js, line 378: unreachable code after return statement
+1601158410775	Marionette	INFO	Stopped listening on port 62290
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1601158423423	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "" "-foreground" "-no-remote" "-profile" "C:\\Users\\Alik\\AppData\\Local\\Temp\\rust_mozprofileLbolcx"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1601158424644	Marionette	INFO	Listening on port 62344
+1601158424926	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://www.sevin.ru/vertebrates/ftiens4.js, line 378: unreachable code after return statement
+1601158734476	Marionette	INFO	Stopped listening on port 62344
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+re/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1601158494013	Marionette	INFO	Listening on port 62399
+1601158494236	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://www.sevin.ru/vertebrates/ftiens4.js, line 378: unreachable code after return statement
+1601158532224	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "" "-foreground" "-no-remote" "-profile" "C:\\Users\\Alik\\AppData\\Local\\Temp\\rust_mozprofilekZWDiR"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1601158533461	Marionette	INFO	Listening on port 62456
+1601158533729	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://www.sevin.ru/vertebrates/ftiens4.js, line 378: unreachable code after return statement
+1601158578018	Marionette	INFO	Stopped listening on port 62456
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1601158813739	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "" "-foreground" "-no-remote" "-profile" "C:\\Users\\Alik\\AppData\\Local\\Temp\\rust_mozprofile0zp6lg"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1601158814962	Marionette	INFO	Listening on port 62564
+1601158815243	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://www.sevin.ru/vertebrates/ftiens4.js, line 378: unreachable code after return statement
+1601158834775	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "" "-foreground" "-no-remote" "-profile" "C:\\Users\\Alik\\AppData\\Local\\Temp\\rust_mozprofilepNRMtT"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1601158836047	Marionette	INFO	Listening on port 62612
+1601158836278	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://www.sevin.ru/vertebrates/ftiens4.js, line 378: unreachable code after return statement
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1601159136214	Marionette	INFO	Stopped listening on port 62612
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1601160891225	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "" "-foreground" "-no-remote" "-profile" "C:\\Users\\Alik\\AppData\\Local\\Temp\\rust_mozprofileqMj6cW"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1601160892473	Marionette	INFO	Listening on port 62892
+1601160892729	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://www.sevin.ru/vertebrates/ftiens4.js, line 378: unreachable code after return statement
+JavaScript warning: http://www.sevin.ru/vertebrates/ftiens4.js, line 378: unreachable code after return statement
+JavaScript warning: http://www.sevin.ru/vertebrates/ftiens4.js, line 378: unreachable code after return statement
+JavaScript warning: http://www.sevin.ru/vertebrates/ftiens4.js, line 378: unreachable code after return statement
+1601160907281	Marionette	INFO	Stopped listening on port 62892
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1601160953595	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "" "-foreground" "-no-remote" "-profile" "C:\\Users\\Alik\\AppData\\Local\\Temp\\rust_mozprofileK8qnm9"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1601160954804	Marionette	INFO	Listening on port 62951
+1601160955100	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://www.sevin.ru/vertebrates/ftiens4.js, line 378: unreachable code after return statement
+JavaScript warning: http://www.sevin.ru/vertebrates/ftiens4.js, line 378: unreachable code after return statement
+JavaScript warning: http://www.sevin.ru/vertebrates/ftiens4.js, line 378: unreachable code after return statement
+JavaScript warning: http://www.sevin.ru/vertebrates/ftiens4.js, line 378: unreachable code after return statement
+1601160999673	Marionette	INFO	Stopped listening on port 62951
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1601161211324	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "" "-foreground" "-no-remote" "-profile" "C:\\Users\\Alik\\AppData\\Local\\Temp\\rust_mozprofileqJCmsf"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1601161212525	Marionette	INFO	Listening on port 63042
+1601161212829	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://www.sevin.ru/vertebrates/ftiens4.js, line 378: unreachable code after return statement
+JavaScript warning: http://www.sevin.ru/vertebrates/ftiens4.js, line 378: unreachable code after return statement
+1601161225872	Marionette	INFO	Stopped listening on port 63042
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1601161241459	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "" "-foreground" "-no-remote" "-profile" "C:\\Users\\Alik\\AppData\\Local\\Temp\\rust_mozprofilewu4aW8"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1601161242699	Marionette	INFO	Listening on port 63091
+1601161242964	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://www.sevin.ru/vertebrates/ftiens4.js, line 378: unreachable code after return statement
+JavaScript warning: http://www.sevin.ru/vertebrates/ftiens4.js, line 378: unreachable code after return statement
+1601161255188	Marionette	INFO	Stopped listening on port 63091
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1601161271323	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "" "-foreground" "-no-remote" "-profile" "C:\\Users\\Alik\\AppData\\Local\\Temp\\rust_mozprofileNNY0at"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1601161272538	Marionette	INFO	Listening on port 63138
+1601161272831	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://www.sevin.ru/vertebrates/ftiens4.js, line 378: unreachable code after return statement
+JavaScript warning: http://www.sevin.ru/vertebrates/ftiens4.js, line 378: unreachable code after return statement
+1601161276935	Marionette	INFO	Stopped listening on port 63138
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1601161403349	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "" "-foreground" "-no-remote" "-profile" "C:\\Users\\Alik\\AppData\\Local\\Temp\\rust_mozprofileoG6aC8"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1601161404567	Marionette	INFO	Listening on port 63230
+1601161404854	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://www.sevin.ru/vertebrates/ftiens4.js, line 378: unreachable code after return statement
+JavaScript warning: http://www.sevin.ru/vertebrates/ftiens4.js, line 378: unreachable code after return statement
+1601162090282	Marionette	INFO	Stopped listening on port 63230
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+rofile" "C:\\Users\\Alik\\AppData\\Local\\Temp\\rust_mozprofileyM4UYT"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1601161453523	Marionette	INFO	Listening on port 63284
+1601161453818	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://www.sevin.ru/vertebrates/ftiens4.js, line 378: unreachable code after return statement
+JavaScript warning: http://www.sevin.ru/vertebrates/ftiens4.js, line 378: unreachable code after return statement
+1601161468964	Marionette	INFO	Stopped listening on port 63284
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1601161531793	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "" "-foreground" "-no-remote" "-profile" "C:\\Users\\Alik\\AppData\\Local\\Temp\\rust_mozprofileOYhQqk"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1601161533046	Marionette	INFO	Listening on port 63364
+1601161533297	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://www.sevin.ru/vertebrates/ftiens4.js, line 378: unreachable code after return statement
+JavaScript warning: http://www.sevin.ru/vertebrates/ftiens4.js, line 378: unreachable code after return statement
+1601162094225	Marionette	INFO	Stopped listening on port 63364
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+rofile" "C:\\Users\\Alik\\AppData\\Local\\Temp\\rust_mozprofilej5yJdH"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1601161584329	Marionette	INFO	Listening on port 63416
+1601161584639	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://www.sevin.ru/vertebrates/ftiens4.js, line 378: unreachable code after return statement
+JavaScript warning: http://www.sevin.ru/vertebrates/ftiens4.js, line 378: unreachable code after return statement
+1601161603067	Marionette	INFO	Stopped listening on port 63416
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1601161629705	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "" "-foreground" "-no-remote" "-profile" "C:\\Users\\Alik\\AppData\\Local\\Temp\\rust_mozprofileo1CLZ3"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1601161630906	Marionette	INFO	Listening on port 63470
+1601161631208	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://www.sevin.ru/vertebrates/ftiens4.js, line 378: unreachable code after return statement
+JavaScript warning: http://www.sevin.ru/vertebrates/ftiens4.js, line 378: unreachable code after return statement
+JavaScript warning: http://www.sevin.ru/vertebrates/ftiens4.js, line 378: unreachable code after return statement
+JavaScript warning: http://www.sevin.ru/vertebrates/ftiens4.js, line 378: unreachable code after return statement
+1601162096956	Marionette	INFO	Stopped listening on port 63470
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+re/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1601161992489	Marionette	INFO	Listening on port 63561
+1601161992694	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://www.sevin.ru/vertebrates/ftiens4.js, line 378: unreachable code after return statement
+JavaScript warning: http://www.sevin.ru/vertebrates/ftiens4.js, line 378: unreachable code after return statement
+JavaScript warning: http://www.sevin.ru/vertebrates/ftiens4.js, line 378: unreachable code after return statement
+JavaScript warning: http://www.sevin.ru/vertebrates/ftiens4.js, line 378: unreachable code after return statement
+1601162098787	Marionette	INFO	Stopped listening on port 63561
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+re/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1601162037577	Marionette	INFO	Listening on port 63624
+1601162037852	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://www.sevin.ru/vertebrates/ftiens4.js, line 378: unreachable code after return statement
+JavaScript warning: http://www.sevin.ru/vertebrates/ftiens4.js, line 378: unreachable code after return statement
+JavaScript warning: http://www.sevin.ru/vertebrates/ftiens4.js, line 378: unreachable code after return statement
+JavaScript warning: http://www.sevin.ru/vertebrates/ftiens4.js, line 378: unreachable code after return statement
+1601162091364	Marionette	INFO	Stopped listening on port 63624
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1601162176752	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "" "-foreground" "-no-remote" "-profile" "C:\\Users\\Alik\\AppData\\Local\\Temp\\rust_mozprofileFUt6f7"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1601162178024	Marionette	INFO	Listening on port 63702
+1601162178256	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://www.sevin.ru/vertebrates/ftiens4.js, line 378: unreachable code after return statement
+JavaScript warning: http://www.sevin.ru/vertebrates/ftiens4.js, line 378: unreachable code after return statement
+1601162196532	Marionette	INFO	Stopped listening on port 63702
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1601162235429	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "" "-foreground" "-no-remote" "-profile" "C:\\Users\\Alik\\AppData\\Local\\Temp\\rust_mozprofileh5JCv8"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1601162236631	Marionette	INFO	Listening on port 63755
+1601162236933	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://www.sevin.ru/vertebrates/ftiens4.js, line 378: unreachable code after return statement
+JavaScript warning: http://www.sevin.ru/vertebrates/ftiens4.js, line 378: unreachable code after return statement
+1601162578124	Marionette	INFO	Stopped listening on port 63755
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+re/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1601162445715	Marionette	INFO	Listening on port 58691
+1601162446044	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://www.sevin.ru/vertebrates/ftiens4.js, line 378: unreachable code after return statement
+JavaScript warning: http://www.sevin.ru/vertebrates/ftiens4.js, line 378: unreachable code after return statement
+1601162494159	Marionette	INFO	Stopped listening on port 58691
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1601162546417	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "" "-foreground" "-no-remote" "-profile" "C:\\Users\\Alik\\AppData\\Local\\Temp\\rust_mozprofilevB33Vn"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1601162547605	Marionette	INFO	Listening on port 58769
+1601162547923	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://www.sevin.ru/vertebrates/ftiens4.js, line 378: unreachable code after return statement
+JavaScript warning: http://www.sevin.ru/vertebrates/ftiens4.js, line 378: unreachable code after return statement
+1601162554454	Marionette	INFO	Stopped listening on port 58769
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1601162575619	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "" "-foreground" "-no-remote" "-profile" "C:\\Users\\Alik\\AppData\\Local\\Temp\\rust_mozprofileZpmcM3"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1601162576838	Marionette	INFO	Listening on port 58821
+1601162577123	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://www.sevin.ru/vertebrates/ftiens4.js, line 378: unreachable code after return statement
+JavaScript warning: http://www.sevin.ru/vertebrates/ftiens4.js, line 378: unreachable code after return statement
+1601162584919	Marionette	INFO	Stopped listening on port 58821
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1601164274423	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "" "-foreground" "-no-remote" "-profile" "C:\\Users\\Alik\\AppData\\Local\\Temp\\rust_mozprofilenAwKwK"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1601164275626	Marionette	INFO	Listening on port 59417
+1601164275928	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://www.sevin.ru/vertebrates/ftiens4.js, line 378: unreachable code after return statement
+JavaScript warning: http://www.sevin.ru/vertebrates/ftiens4.js, line 378: unreachable code after return statement
+1601164286590	Marionette	INFO	Stopped listening on port 59417
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1601164305404	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "" "-foreground" "-no-remote" "-profile" "C:\\Users\\Alik\\AppData\\Local\\Temp\\rust_mozprofileyrOCHX"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1601164306643	Marionette	INFO	Listening on port 59468
+1601164306908	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://www.sevin.ru/vertebrates/ftiens4.js, line 378: unreachable code after return statement
+JavaScript warning: http://www.sevin.ru/vertebrates/ftiens4.js, line 378: unreachable code after return statement
+1601164311682	Marionette	INFO	Stopped listening on port 59468
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1601164354350	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "" "-foreground" "-no-remote" "-profile" "C:\\Users\\Alik\\AppData\\Local\\Temp\\rust_mozprofileuY8kzG"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1601164355566	Marionette	INFO	Listening on port 59518
+1601164355855	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://www.sevin.ru/vertebrates/ftiens4.js, line 378: unreachable code after return statement
+JavaScript warning: http://www.sevin.ru/vertebrates/ftiens4.js, line 378: unreachable code after return statement
+1601164363020	Marionette	INFO	Stopped listening on port 59518
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1601164380622	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "" "-foreground" "-no-remote" "-profile" "C:\\Users\\Alik\\AppData\\Local\\Temp\\rust_mozprofilenkHKYW"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1601164381878	Marionette	INFO	Listening on port 59568
+1601164382127	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://www.sevin.ru/vertebrates/ftiens4.js, line 378: unreachable code after return statement
+JavaScript warning: http://www.sevin.ru/vertebrates/ftiens4.js, line 378: unreachable code after return statement
+1601164419579	Marionette	INFO	Stopped listening on port 59568
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+re/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1601164405533	Marionette	INFO	Listening on port 59616
+1601164405897	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://www.sevin.ru/vertebrates/ftiens4.js, line 378: unreachable code after return statement
+JavaScript warning: http://www.sevin.ru/vertebrates/ftiens4.js, line 378: unreachable code after return statement
+1601164420137	Marionette	INFO	Stopped listening on port 59616
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1601164603190	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "" "-foreground" "-no-remote" "-profile" "C:\\Users\\Alik\\AppData\\Local\\Temp\\rust_mozprofile4frO3S"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1601164604371	Marionette	INFO	Listening on port 59703
+1601164604695	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://www.sevin.ru/vertebrates/ftiens4.js, line 378: unreachable code after return statement
+JavaScript warning: http://www.sevin.ru/vertebrates/ftiens4.js, line 378: unreachable code after return statement
+JavaScript warning: http://www.sevin.ru/vertebrates/ftiens4.js, line 378: unreachable code after return statement
+JavaScript warning: http://www.sevin.ru/vertebrates/ftiens4.js, line 378: unreachable code after return statement
+1601164675224	Marionette	INFO	Stopped listening on port 59703
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1601164819527	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "" "-foreground" "-no-remote" "-profile" "C:\\Users\\Alik\\AppData\\Local\\Temp\\rust_mozprofileVJgKx7"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1601164820728	Marionette	INFO	Listening on port 59866
+1601164821033	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://www.sevin.ru/vertebrates/ftiens4.js, line 378: unreachable code after return statement
+JavaScript warning: http://www.sevin.ru/vertebrates/ftiens4.js, line 378: unreachable code after return statement
+JavaScript warning: http://www.sevin.ru/vertebrates/ftiens4.js, line 378: unreachable code after return statement
+JavaScript warning: http://www.sevin.ru/vertebrates/ftiens4.js, line 378: unreachable code after return statement
+1601164945314	Marionette	INFO	Stopped listening on port 59866
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1601164994426	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "" "-foreground" "-no-remote" "-profile" "C:\\Users\\Alik\\AppData\\Local\\Temp\\rust_mozprofilesj0NCl"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1601164995625	Marionette	INFO	Listening on port 59954
+1601164995932	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://www.sevin.ru/vertebrates/ftiens4.js, line 378: unreachable code after return statement
+JavaScript warning: http://www.sevin.ru/vertebrates/ftiens4.js, line 378: unreachable code after return statement
+1601165097921	Marionette	INFO	Stopped listening on port 59954
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+re/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1601165074362	Marionette	INFO	Listening on port 60035
+1601165074676	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://www.sevin.ru/vertebrates/ftiens4.js, line 378: unreachable code after return statement
+JavaScript warning: http://www.sevin.ru/vertebrates/ftiens4.js, line 378: unreachable code after return statement
+1601165083445	Marionette	INFO	Stopped listening on port 60035
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1601165106216	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "" "-foreground" "-no-remote" "-profile" "C:\\Users\\Alik\\AppData\\Local\\Temp\\rust_mozprofilejhgE70"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1601165107460	Marionette	INFO	Listening on port 60084
+1601165107720	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://www.sevin.ru/vertebrates/ftiens4.js, line 378: unreachable code after return statement
+JavaScript warning: http://www.sevin.ru/vertebrates/ftiens4.js, line 378: unreachable code after return statement
+JavaScript warning: http://www.sevin.ru/vertebrates/ftiens4.js, line 378: unreachable code after return statement
+JavaScript warning: http://www.sevin.ru/vertebrates/ftiens4.js, line 378: unreachable code after return statement
+JavaScript error: http://www.sevin.ru/vertebrates/ftiens4.js, line 403: ReferenceError: foldersTree is not defined
+JavaScript error: http://www.sevin.ru/vertebrates/ftiens4.js, line 403: ReferenceError: foldersTree is not defined
+1601165202408	Marionette	INFO	Stopped listening on port 60084
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1601165219127	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "" "-foreground" "-no-remote" "-profile" "C:\\Users\\Alik\\AppData\\Local\\Temp\\rust_mozprofileEIAV1t"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1601165220329	Marionette	INFO	Listening on port 60161
+1601165220633	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://www.sevin.ru/vertebrates/ftiens4.js, line 378: unreachable code after return statement
+JavaScript warning: http://www.sevin.ru/vertebrates/ftiens4.js, line 378: unreachable code after return statement
+JavaScript warning: http://www.sevin.ru/vertebrates/ftiens4.js, line 378: unreachable code after return statement
+JavaScript warning: http://www.sevin.ru/vertebrates/ftiens4.js, line 378: unreachable code after return statement
+1601165317968	Marionette	INFO	Stopped listening on port 60161
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+re/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1601165315214	Marionette	INFO	Listening on port 60221
+1601165315443	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://www.sevin.ru/vertebrates/ftiens4.js, line 378: unreachable code after return statement
+JavaScript warning: http://www.sevin.ru/vertebrates/ftiens4.js, line 378: unreachable code after return statement
+JavaScript warning: http://www.sevin.ru/vertebrates/ftiens4.js, line 378: unreachable code after return statement
+JavaScript warning: http://www.sevin.ru/vertebrates/ftiens4.js, line 378: unreachable code after return statement
+1601165334104	Marionette	INFO	Stopped listening on port 60221
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1601165899163	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "" "-foreground" "-no-remote" "-profile" "C:\\Users\\Alik\\AppData\\Local\\Temp\\rust_mozprofileFczPKc"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1601165900332	Marionette	INFO	Listening on port 58599
+1601165900667	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://www.sevin.ru/vertebrates/ftiens4.js, line 378: unreachable code after return statement
+JavaScript warning: http://www.sevin.ru/vertebrates/ftiens4.js, line 378: unreachable code after return statement
+1601165920356	Marionette	INFO	Stopped listening on port 58599
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1601166164408	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "" "-foreground" "-no-remote" "-profile" "C:\\Users\\Alik\\AppData\\Local\\Temp\\rust_mozprofileDeA1aN"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1601166165581	Marionette	INFO	Listening on port 58706
+1601166165912	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://www.sevin.ru/vertebrates/ftiens4.js, line 378: unreachable code after return statement
+JavaScript warning: http://www.sevin.ru/vertebrates/ftiens4.js, line 378: unreachable code after return statement
+1601166247178	Marionette	INFO	Stopped listening on port 58706
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+re/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1601166247179	Marionette	INFO	Listening on port 58763
+1601166247448	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://www.sevin.ru/vertebrates/ftiens4.js, line 378: unreachable code after return statement
+JavaScript warning: http://www.sevin.ru/vertebrates/ftiens4.js, line 378: unreachable code after return statement
+JavaScript warning: http://www.sevin.ru/vertebrates/ftiens4.js, line 378: unreachable code after return statement
+JavaScript error: http://www.sevin.ru/vertebrates/ftiens4.js, line 403: ReferenceError: foldersTree is not defined
+JavaScript error: chrome://marionette/content/proxy.js, line 222: TypeError: this.browser.driver.dialogObserver is null
+JavaScript warning: http://www.sevin.ru/vertebrates/ftiens4.js, line 378: unreachable code after return statement
+JavaScript error: chrome://marionette/content/proxy.js, line 222: TypeError: this.browser.driver.dialogObserver is null
+1601166271316	Marionette	INFO	Stopped listening on port 58763
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1601166287409	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "" "-foreground" "-no-remote" "-profile" "C:\\Users\\Alik\\AppData\\Local\\Temp\\rust_mozprofileUe4oRB"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1601166288618	Marionette	INFO	Listening on port 58820
+1601166288913	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://www.sevin.ru/vertebrates/ftiens4.js, line 378: unreachable code after return statement
+JavaScript warning: http://www.sevin.ru/vertebrates/ftiens4.js, line 378: unreachable code after return statement
+1601166300493	Marionette	INFO	Stopped listening on port 58820
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1601166430983	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "" "-foreground" "-no-remote" "-profile" "C:\\Users\\Alik\\AppData\\Local\\Temp\\rust_mozprofilenNu0U9"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1601166432173	Marionette	INFO	Listening on port 58878
+1601166432487	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://www.sevin.ru/vertebrates/ftiens4.js, line 378: unreachable code after return statement
+JavaScript warning: http://www.sevin.ru/vertebrates/ftiens4.js, line 378: unreachable code after return statement
+1601166652391	Marionette	INFO	Stopped listening on port 58878
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+re/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1601166464698	Marionette	INFO	Listening on port 58931
+1601166464979	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://www.sevin.ru/vertebrates/ftiens4.js, line 378: unreachable code after return statement
+JavaScript warning: http://www.sevin.ru/vertebrates/ftiens4.js, line 378: unreachable code after return statement
+1601166471406	Marionette	INFO	Stopped listening on port 58931
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1601166499610	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "" "-foreground" "-no-remote" "-profile" "C:\\Users\\Alik\\AppData\\Local\\Temp\\rust_mozprofileubdnik"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1601166500816	Marionette	INFO	Listening on port 58981
+1601166501113	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://www.sevin.ru/vertebrates/ftiens4.js, line 378: unreachable code after return statement
+JavaScript warning: http://www.sevin.ru/vertebrates/ftiens4.js, line 378: unreachable code after return statement
+1601166525423	Marionette	INFO	Stopped listening on port 58981
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1601166534499	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "" "-foreground" "-no-remote" "-profile" "C:\\Users\\Alik\\AppData\\Local\\Temp\\rust_mozprofile4Z2zsm"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1601166535717	Marionette	INFO	Listening on port 59029
+1601166536005	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://www.sevin.ru/vertebrates/ftiens4.js, line 378: unreachable code after return statement
+JavaScript warning: http://www.sevin.ru/vertebrates/ftiens4.js, line 378: unreachable code after return statement
+1601166652858	Marionette	INFO	Stopped listening on port 59029
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+re/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1601166638925	Marionette	INFO	Listening on port 59089
+1601166639271	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://www.sevin.ru/vertebrates/ftiens4.js, line 378: unreachable code after return statement
+JavaScript warning: http://www.sevin.ru/vertebrates/ftiens4.js, line 378: unreachable code after return statement
+1601166643480	Marionette	INFO	Stopped listening on port 59089
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1601166758232	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "" "-foreground" "-no-remote" "-profile" "C:\\Users\\Alik\\AppData\\Local\\Temp\\rust_mozprofilezldwlT"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1601166759413	Marionette	INFO	Listening on port 59164
+1601166759737	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://www.sevin.ru/vertebrates/ftiens4.js, line 378: unreachable code after return statement
+JavaScript warning: http://www.sevin.ru/vertebrates/ftiens4.js, line 378: unreachable code after return statement
+JavaScript warning: http://www.sevin.ru/vertebrates/ftiens4.js, line 378: unreachable code after return statement
+JavaScript warning: http://www.sevin.ru/vertebrates/ftiens4.js, line 378: unreachable code after return statement
+1601167020863	Marionette	INFO	Stopped listening on port 59164
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1601167407912	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "" "-foreground" "-no-remote" "-profile" "C:\\Users\\Alik\\AppData\\Local\\Temp\\rust_mozprofilegrFCcQ"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1601167409117	Marionette	INFO	Listening on port 59377
+1601167409417	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://www.sevin.ru/vertebrates/ftiens4.js, line 378: unreachable code after return statement
+JavaScript warning: http://www.sevin.ru/vertebrates/ftiens4.js, line 378: unreachable code after return statement
+JavaScript warning: http://www.sevin.ru/vertebrates/ftiens4.js, line 378: unreachable code after return statement
+JavaScript warning: http://www.sevin.ru/vertebrates/ftiens4.js, line 378: unreachable code after return statement
+1601167605002	Marionette	INFO	Stopped listening on port 59377
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+re/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1601167495137	Marionette	INFO	Listening on port 59461
+1601167495463	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://www.sevin.ru/vertebrates/ftiens4.js, line 378: unreachable code after return statement
+JavaScript warning: http://www.sevin.ru/vertebrates/ftiens4.js, line 378: unreachable code after return statement
+JavaScript warning: http://www.sevin.ru/vertebrates/ftiens4.js, line 378: unreachable code after return statement
+JavaScript warning: http://www.sevin.ru/vertebrates/ftiens4.js, line 378: unreachable code after return statement
+1601167507147	Marionette	INFO	Stopped listening on port 59461
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1601167550633	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "" "-foreground" "-no-remote" "-profile" "C:\\Users\\Alik\\AppData\\Local\\Temp\\rust_mozprofileFi76r7"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1601167551841	Marionette	INFO	Listening on port 59523
+1601167552139	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://www.sevin.ru/vertebrates/ftiens4.js, line 378: unreachable code after return statement
+JavaScript warning: http://www.sevin.ru/vertebrates/ftiens4.js, line 378: unreachable code after return statement
+JavaScript warning: http://www.sevin.ru/vertebrates/ftiens4.js, line 378: unreachable code after return statement
+JavaScript warning: http://www.sevin.ru/vertebrates/ftiens4.js, line 378: unreachable code after return statement
+JavaScript error: http://www.sevin.ru/vertebrates/ftiens4.js, line 403: ReferenceError: foldersTree is not defined
+1601167559819	Marionette	INFO	Stopped listening on port 59523
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1601167625026	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "" "-foreground" "-no-remote" "-profile" "C:\\Users\\Alik\\AppData\\Local\\Temp\\rust_mozprofilebKW0Cz"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1601167626237	Marionette	INFO	Listening on port 59600
+1601167626531	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://www.sevin.ru/vertebrates/ftiens4.js, line 378: unreachable code after return statement
+JavaScript warning: http://www.sevin.ru/vertebrates/ftiens4.js, line 378: unreachable code after return statement
+JavaScript warning: http://www.sevin.ru/vertebrates/ftiens4.js, line 378: unreachable code after return statement
+JavaScript warning: http://www.sevin.ru/vertebrates/ftiens4.js, line 378: unreachable code after return statement
+1601167635729	Marionette	INFO	Stopped listening on port 59600
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1601167685635	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\Alik\\AppData\\Local\\Temp\\rust_mozprofileM1D3VQ"
+*** You are running in headless mode.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1601167686814	Marionette	INFO	Listening on port 59666
+1601167687140	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://www.sevin.ru/vertebrates/ftiens4.js, line 378: unreachable code after return statement
+JavaScript warning: http://www.sevin.ru/vertebrates/ftiens4.js, line 378: unreachable code after return statement
+JavaScript warning: http://www.sevin.ru/vertebrates/ftiens4.js, line 378: unreachable code after return statement
+JavaScript warning: http://www.sevin.ru/vertebrates/ftiens4.js, line 378: unreachable code after return statement
+1601167694393	Marionette	INFO	Stopped listening on port 59666
